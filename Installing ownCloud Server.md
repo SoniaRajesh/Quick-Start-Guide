@@ -5,7 +5,9 @@ There are different ways to install the ownCloud Server. This Quick Start Guide 
 
 To install the ownCloud Server:
   1. Open your Web browser and type  http://localhost/owncloud 
+  
   ![enter image description here](https://doc.owncloud.org/server/9.1/admin_manual/_images/install-wizard-a.png)
+  
   2. To create an admin account, type a username and password in the respective fields. 
   > **Note**: Although you can now choose to click **Finish Setup** and start using your new ownCloud server, we highly recommend you to also set up Storage and database for better performance and security.
   > To setup storage and database, follow instructions provided in the section that follows.
