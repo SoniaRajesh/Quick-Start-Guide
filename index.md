@@ -11,20 +11,20 @@ ownCloud works on client-server model. This includes the following:
   - The free community-supported Server. This is the core server for all editions.
   - The Standard Subscription for customers who want paid support for the core Server, without   Enterprise applications. 
   - The Enterprise Subscription provides paid support for the Enterprise Edition. This includes the core Server and Enterprise apps.
-  	> See What’s New for Admins in ownCloud  for more information on the different ownCloud editions.
+ 	> See What’s New for Admins in ownCloud  for more information on the different ownCloud editions.
  
 
 ## Document Overview
 This ownCloud Quick Start Guide takes you through the software prerequisites for installing ownCloud server, and steps to install, configure, and connect to ownCloud server.
 
 For administrators:
-
-- Installing Owncloud server
-- Managing user account
-- Enabling users to connect to the Owncloud server
+- Installing and configuring an Owncloud server
+-  Managing user account
+-- Adding user account
+-- Enabling users to to connect to the Owncloud server
 
  For users:
- - Connecting to the Owncloud server using a desktop or mobile client
+ - connect to the Owncloud server using a desktop or mobile client?
 ## Resources
 
  - See the official [ownCloud channel](https://www.youtube.com/channel/UC_4gez4lsWqciH-otOlXo5w) and [ownClouders community channel](https://www.youtube.com/channel/UCA8Ehsdu3KaxSz5KOcCgHbw) on YouTube for tutorials, overviews, and conference videos. 
@@ -33,14 +33,16 @@ For administrators:
 # Prerequisites
 This section explains the basic environment, database, and memory requirements for installing ownCloud server.
 
- ## Environment Requirements
+## Environment Requirements
  We recommend the following component requirements:
  
- - Memory: 512 MB 
- - Operating System: Ubuntu 20.04 LTS
- - Database: MariaDB 10+
- - Web server: Apache 2.4 with  [`prefork and mod_php`](https://doc.owncloud.com/server/admin_manual/installation/system_requirements.html#installation/manual_installation.adoc#multi-processing-module-mpm)|
- - PHP Runtime: 7.4 
+|Component|Requirement|  
+| ----------- | ----------- |  
+| Memory| 512 MB|  
+|Operating System | Ubuntu 20.04 LTS
+|Database| MariaDB 10+ |
+|Web server|Apache 2.4 with  [`prefork and mod_php`](https://doc.owncloud.com/server/admin_manual/installation/system_requirements.html#installation/manual_installation.adoc#multi-processing-module-mpm)|
+|  PHP Runtime| 7.4 |
 
 We also support the following:
 ##### Operating System	
@@ -68,7 +70,6 @@ We also support the following:
 
 ##### PHP Runtime
 -   7.3 and 7.4
-
 ##### Hypervisors
 
 -   Hyper-V
@@ -128,6 +129,7 @@ The following database settings are currently required if you’re running ownCl
 Memory requirements for running an ownCloud server are greatly variable, depending on the numbers of users and files, and volume of server activity. ownCloud officially requires a minimum of 128MB RAM. But, we recommend a minimum of 512MB.
 
 Next: Installing ownCloud Server 
+
 ﻿
 # Installing ownCloud Server
 There are different ways to install the ownCloud Server. This Quick Start Guide explains how to quickly install ownCloud.
@@ -137,7 +139,6 @@ To install the ownCloud Server:
   1. Open your Web browser and type  http://localhost/owncloud 
   
   ![enter image description here](https://doc.owncloud.org/server/9.1/admin_manual/_images/install-wizard-a.png)
-  
   2. To create an admin account, type a username and password in the respective fields. 
   > **Note**: Although you can now choose to click **Finish Setup** and start using your new ownCloud server, we highly recommend you to also set up Storage and database for better performance and security.
   > To setup storage and database, follow instructions provided in the section that follows.
@@ -155,8 +156,8 @@ To install the ownCloud Server:
 >**Note**:  We do not provide and support for the SQLite server in the ownCloud Enterprise subscription. For ownCloud Server, the system by default selects the SQLite server. However, we recommend that you must select the MySQL/MariaDB server. For ownCloud database user and password, review the  `config.php`  file:
 
 > ‘dbuser’ => ‘oc_molly’,  
-
 > ‘dbpassword’ => ‘pX65Ty5DrHQkYPE5HRsDvyFHlZZHcm’,Blockquote
+
 ﻿
 # Enabling Users to Connect to ownCloud Server
 
@@ -260,6 +261,7 @@ The following is an example of your **config.php** file after you install ownClo
     
 After you are done updating the **config.php** file, save it, and restart the Apache server. You may now access ownCloud by using http://test.com/> or http://localhost/>.
 
+
 ﻿
 
 # Connecting to ownCloud Server through Desktop Client
@@ -308,5 +310,15 @@ Administrators can add, edit, and delete user accounts through ownCloud web inte
  2. In the **Password** field, type a password.
  3. In the **Group** drop-down list, select an appropriate group.
  4. Click **Create**. The system displays a message indicating the successful creation of a new user account.
+
+
+
+
+
+
+
+
+
+
 
 
