@@ -34,6 +34,7 @@ For administrators:
 This section explains the basic environment, database, and memory requirements for installing ownCloud server.
 
 ## Environment Requirements
+
  We recommend the following component requirements:
  
 |Component|Requirement|  
@@ -281,9 +282,12 @@ To download and install the ownCloud Desktop Client, review the <a  alt='Desktop
 
  1. Launch the ownCloud Desktop Client.
  2. In **Server Address** field, enter the IP address for your server (for example, http(s)://10.10.10.10), and click **Next**.
+ 
     ![enter image description here](https://docs.bitnami.com/images/img/apps/owncloud/configure-client-1.png) 
+  
   >You must review the IP address that you enter.
  3. In the **Username** and **Password** field, enter your username and password respectively, and then click **Next**.
+ 
     ![enter image description here](https://docs.bitnami.com/images/img/apps/owncloud/configure-client-2.png) 
  4. Select an appropriate sync option.
 
@@ -295,7 +299,8 @@ To download and install the ownCloud Desktop Client, review the <a  alt='Desktop
     | Start a clean sync |Indicates that while syncing you want the system to delete your local data |
 
     ![enter image description here](https://docs.bitnami.com/images/img/apps/owncloud/configure-client-3.png) <br/>
- 5. Click **Connect**, and then click **Finish**. The system displays a success message indicating that you have successfully configured the ownCloud desktop client
+  
+ 6. Click **Connect**, and then click **Finish**. The system displays a success message indicating that you have successfully configured the ownCloud desktop client
 
 ﻿
 # Managing User Accounts
