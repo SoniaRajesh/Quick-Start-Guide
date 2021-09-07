@@ -35,13 +35,12 @@ This section explains the basic environment, database, and memory requirements f
 
  ## Environment Requirements
  We recommend the following component requirements:
-|Component|Requirement|  
-| ----------- | ----------- |  
-| Memory| 512 MB|  
-|Operating System | Ubuntu 20.04 LTS
-|Database| MariaDB 10+ |
-|Web server|Apache 2.4 with  [`prefork and mod_php`](https://doc.owncloud.com/server/admin_manual/installation/system_requirements.html#installation/manual_installation.adoc#multi-processing-module-mpm)|
-|  PHP Runtime| 7.4 |
+ 
+ - Memory: 512 MB 
+ - Operating System: Ubuntu 20.04 LTS
+ - Database: MariaDB 10+
+ - Web server: Apache 2.4 with  [`prefork and mod_php`](https://doc.owncloud.com/server/admin_manual/installation/system_requirements.html#installation/manual_installation.adoc#multi-processing-module-mpm)|
+ - PHP Runtime: 7.4 
 
 We also support the following:
 ##### Operating System	
@@ -67,7 +66,7 @@ We also support the following:
 ##### Webserver
 -   Apache 2.4 with  [`prefork`  and  `mod_php`](https://doc.owncloud.com/server/admin_manual/installation/system_requirements.html#installation/manual_installation.adoc#multi-processing-module-mpm)
 
- ##### PHP Runtime
+##### PHP Runtime
 -   7.3 and 7.4
 ##### Hypervisors
 
@@ -155,6 +154,7 @@ To install the ownCloud Server:
 >**Note**:  We do not provide and support for the SQLite server in the ownCloud Enterprise subscription. For ownCloud Server, the system by default selects the SQLite server. However, we recommend that you must select the MySQL/MariaDB server. For ownCloud database user and password, review the  `config.php`  file:
 
 > ‘dbuser’ => ‘oc_molly’,  
+
 > ‘dbpassword’ => ‘pX65Ty5DrHQkYPE5HRsDvyFHlZZHcm’,Blockquote
 ﻿
 # Enabling Users to Connect to ownCloud Server
