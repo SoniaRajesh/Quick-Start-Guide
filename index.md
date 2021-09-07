@@ -25,6 +25,7 @@ For administrators:
 
  For users:
  - connect to the Owncloud server using a desktop or mobile client?
+
 ## Resources
 
  - See the official [ownCloud channel](https://www.youtube.com/channel/UC_4gez4lsWqciH-otOlXo5w) and [ownClouders community channel](https://www.youtube.com/channel/UCA8Ehsdu3KaxSz5KOcCgHbw) on YouTube for tutorials, overviews, and conference videos. 
