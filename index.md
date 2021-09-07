@@ -18,7 +18,7 @@ ownCloud works on client-server model. This includes the following:
 This ownCloud Quick Start Guide takes you through the software prerequisites for installing ownCloud server, and steps to install, configure, and connect to ownCloud server.
 
 For administrators:
-[Installing ownCloud Server](https://link-url-here.org)
+[Installing ownCloud Server](https://github.com/SoniaRajesh/Quick-Start-Guide/blob/gh-pages/Installing%20ownCloud%20Server.md)
 - Installing and configuring an Owncloud server
 -  Managing user account
 -- Adding user account
