@@ -11,21 +11,20 @@ ownCloud works on client-server model. This includes the following:
   - The free community-supported Server. This is the core server for all editions.
   - The Standard Subscription for customers who want paid support for the core Server, without   Enterprise applications. 
   - The Enterprise Subscription provides paid support for the Enterprise Edition. This includes the core Server and Enterprise apps.
- 	> See What’s New for Admins in ownCloud  for more information on the different ownCloud editions.
+  	> See What’s New for Admins in ownCloud  for more information on the different ownCloud editions.
  
 
 ## Document Overview
 This ownCloud Quick Start Guide takes you through the software prerequisites for installing ownCloud server, and steps to install, configure, and connect to ownCloud server.
 
 For administrators:
-[Installing ownCloud Server](https://github.com/SoniaRajesh/Quick-Start-Guide/blob/gh-pages/Installing%20ownCloud%20Server)
-- Installing and configuring an Owncloud server
--  Managing user account
--- Adding user account
--- Enabling users to to connect to the Owncloud server
+
+- Installing Owncloud server
+- Managing user account
+- Enabling users to connect to the Owncloud server
 
  For users:
- - connect to the Owncloud server using a desktop or mobile client?
+ - Connecting to the Owncloud server using a desktop or mobile client
 ## Resources
 
  - See the official [ownCloud channel](https://www.youtube.com/channel/UC_4gez4lsWqciH-otOlXo5w) and [ownClouders community channel](https://www.youtube.com/channel/UCA8Ehsdu3KaxSz5KOcCgHbw) on YouTube for tutorials, overviews, and conference videos. 
@@ -69,6 +68,7 @@ We also support the following:
 
 ##### PHP Runtime
 -   7.3 and 7.4
+
 ##### Hypervisors
 
 -   Hyper-V
