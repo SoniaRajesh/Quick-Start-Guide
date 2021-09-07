@@ -282,22 +282,6 @@ You must complete a two-step process to use ownCloud Desktop Client:
 ### Downloading and installing the ownCloud Desktop Client?
 To download and install the ownCloud Desktop Client, review the <a  alt='Desktop Client installation guide' href='https://doc.owncloud.com/desktop/2.8/installing.html'>Desktop Client installation guide</a>.
 
-### Configuring the ownCloud Desktop Client
-﻿
-
-# Connecting to ownCloud Server through Desktop Client
-
-For synchronizing files with your desktop computer, we recommend using the  [ownCloud Sync Client](https://owncloud.com/desktop-app/)  for Windows, Mac OS X and Linux.
-
-The ownCloud Desktop Sync Client enables you to connect to your private ownCloud Server. You can create folders in your home directory, and keep the contents of those folders synced with your ownCloud server. Simply copy a file into the directory and the ownCloud desktop client does the rest. Make a change to the files on one computer, it will flow across the others using these desktop sync clients. You will always have your latest files with you wherever you are.
-
-You must complete a two-step process to use ownCloud Desktop Client:
-- Download and Install
-- Configuration
-
-### Downloading and installing the ownCloud Desktop Client?
-To download and install the ownCloud Desktop Client, review the <a  alt='Desktop Client installation guide' href='https://doc.owncloud.com/desktop/2.8/installing.html'>Desktop Client installation guide</a>.
-
 ### Configuring the ownCloud Desktop Client?
 
  1. Launch the ownCloud Desktop Client.
